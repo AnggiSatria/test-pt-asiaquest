@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: rgb(203, 197, 197);
+    flex: 50%;
+    height: 13vh;
+    position: relative;
+}
+
+nav .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+nav .left {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+    min-height: 93vh;
+    margin-top: 20px;
+}
+
+.IMG img {
+    margin-left: 90px;
+    margin-top: -80px;
+}
+
+.TXT {
+    margin-left: 230PX;
+    margin-top: -70PX;
+    position: relative;
+    color: rgb(68, 68, 222);
+}
+
+.button {
+    background-color: blue;
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px solid black;
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -100px;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.content {
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 390px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo .top {
+    display: flex;
+    flex: 50%;
+}
+.logo .center {
+    display: flex;
+    flex: 50%;
+}
+
+.logo .bottom {
+    display: flex;
+    flex: 50%;
+}
+
+.top .left {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.top .right {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.center .left {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.center .right {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.bottom .left {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.bottom .right {
+    display: flex;
+    flex: 50%;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.top .left img {
+    display: flex;
+
+}
+
+.top .left h5 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.top .right img {
+    display: flex;
+
+}
+
+.top .right h5 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.center .left img {
+    display: flex;
+
+}
+
+.center .left h5 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.center .right img {
+    display: flex;
+
+}
+
+.center .right h5 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.bottom .left img {
+    display: flex;
+
+}
+
+.bottom .left h5 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.bottom .right img {
+    display: flex;
+
+}
+
+.bottom .right h5 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.logo .top .left img {
+   width: 50px;
+}
+
+.logo .top .right img {
+    width: 80px;
+ }
+
+ .logo .center .left img {
+    width: 65px;
+
+ }
+
+ .logo .center .right img {
+    width: 50px;
+
+ }
+
+ .logo .bottom .left img {
+    width: 100px;
+
+ }
+
+ .logo .bottom .right img {
+    width: 100px;
+
+ }
+
+.logo h5 {
+    word-wrap: break-word;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.center {
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(181, 184, 214);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .h2 h2 span {
+    color: rgb(54, 54, 227);
+}
+
+.button2 {
+    background-color: rgb(2, 2, 131);
+    width: 270px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+form #nama {
+    display: flex;
+    width: 100%;
+}
+
+#nama label {
+    width: 25%;
+}
+
+#nama input {
+    width : 75%; 
+    height: 50px;
+    border-radius: 5px;
+}
+
+form #Tanggal {
+    display: flex;
+    width: 100%;
+}
+
+#Tanggal label {
+    width: 25%;
+}
+
+#Tanggal input {
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+form #email {
+    display: flex;
+    width: 100%;
+}
+
+#email label {
+    width: 25%;
+}
+
+#email input {
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#tel {
+    display: flex;
+    width: 100%;
+}
+
+#tel label {
+    width: 25%;
+}
+
+#tel input {
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+#cb {
+    display: flex;
+    width: 100%;
+}
+.allcheck {
+    display: flex;
+    width: 75%;
+    margin-left: 30px;
+}
+
+.check1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.check2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.check3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.check4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.singleLabel {
+    display: flex;
+    width: 25%;
+    word-wrap: break-word;
+}
+
+.syarat {
+    margin-right: 150px;
+}
+
+.cb2 {
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.blank {
+    width: 25%;
+}
+
+.isi {
+    width: 75%;
+    display: flex;
+}
+
+.isi label {
+    margin-left: 10px;
+}
+
+form button {
+    background-color: rgb(57, 129, 211);
+    border-radius: 5px;
+    width: 170px;
+    height : 40px;
+    margin-top: 20px;
+    margin-right: 190px;
+    border: none;
+    color: #fff;
+}
+
+.p p {
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p {
+    text-align: left;
+}
+
+.noted {
+    display: flex;
+    width: 100%;
+}
+
+.noted .blank {
+    width: 25%;
+}
+
+.noted .p {
+    width : 75%;
+    margin-top: 20px;
+}
+
+.noted p {
+    font-size: small;
+    color: rgb(181, 189, 205);
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 span {
+    color: rgb(4, 20, 169);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+    margin-top: 20px;
+}
